@@ -121,8 +121,8 @@ def main():
             st.markdown("## Summary")
             st.write(answer)
             st.markdown("---")
-            st.markdown("## Original Text")
-            st.write(content)
+            """st.markdown("## Original Text")
+            st.write(content)"""
 
     costs = st.session_state.get('costs', [])
     st.sidebar.markdown("## Costs")
